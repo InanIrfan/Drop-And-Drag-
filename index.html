@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css link -->
+    <link rel="stylesheet" href="./Style.css">
+    <!-- boxicons  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Drag&Drop</title>
+</head>
+<body>
+        <div class="container" ondrop="drop(event)" ondragover="allowDrop(event)">
+        
+            <div class="main" draggable="true" ondragstart="drag(event)" id="cat1">
+                <img src="./img1.jpg" alt="">
+                <div class="content">
+                   <h6>Sam Patel</h6>
+                   <p>Jr.web Developer</p>
+                </div>
+                <div class="likes">
+                   <i class='bx bx-like'></i>
+                   <i class='bx bx-dislike' ></i>
+                </div>
+            </div>
+            <div class="main" draggable="true" ondragstart="drag(event)" id="cat2">
+                <img src="./img2.jpg" alt="">
+                <div class="content">
+                    <h6>David Rodriguez</h6>
+                    <p>Ui/Ux Designer</p>
+                </div>
+                <div class="likes">
+                    <i class='bx bx-like'></i>
+                    <i class='bx bx-dislike' ></i>
+                </div>
+            </div>
+            <div class="main" draggable="true" ondragstart="drag(event)" id="cat3">
+                <img src="./img3.jpg" alt="">
+                <div class="content">
+                    <h6>Jr.Rachel Miller</h6>
+                    <p>Sr.web Developer</p>
+                </div>
+                <div class="likes">
+                    <i class='bx bx-like'></i>
+                    <i class='bx bx-dislike' ></i>
+                </div>
+            </div>
+            <div class="main" draggable="true" ondragstart="drag(event)" id="cat4">
+                <img src="./img4.jpg" alt="">
+                <div class="content">
+                    <h6>Tom Wilson</h6>
+                    <p>Software Engineer</p>
+                </div>
+                <div class="likes">
+                    <i class='bx bx-like'></i>
+                    <i class='bx bx-dislike' ></i>
+                </div>
+            </div>
+            <div class="main" draggable="true" ondragstart="drag(event)" id="cat5">
+                <img src="./img5.jpg" alt="">
+                <div class="content">
+                    <h6>Alex Davis</h6>
+                    <p>Graphic Designer</p>
+                </div>
+                <div class="likes">
+                    <i class='bx bx-like'></i>
+                    <i class='bx bx-dislike' ></i>
+                </div>
+            </div>
+            <div class="main" draggable="true" ondragstart="drag(event)" id="cat6">
+                <img src="./img6.jpg" alt="">
+                <div class="content">
+                    <h6>Emily Wilson</h6>
+                    <p>Network Engineer</p>
+                 </div>
+                 <div class="likes">
+                <i class='bx bx-like'></i>
+                <i class='bx bx-dislike' ></i>
+            </div>
+            </div>
+        </div>
+        <!-- js link -->
+        <script src="./script.js"></script>
+        
+</body>
+</html>
